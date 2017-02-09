@@ -12,7 +12,7 @@
   <div class="w3-display-middle w3-padding-4 w3-border w3-wide w3-text-light-grey w3-center">
     <!--<h1 class="w3-hide-medium w3-hide-small w3-xxxlarge">JANE DOE</h1>-->
     <h1 class="" style="white-space:nowrap">BETHANY JANOS</h1>
-    <!--<h3 class="w3-hide-medium w3-hide-small">PHOTOGRAPHER</h3>-->
+    <h3 class="w3-hide-medium w3-hide-small">KEY INSIGHT 1</h3>
   </div>
   
   <!-- Navbar (placed at the bottom of the header image) -->
@@ -22,9 +22,9 @@
     <li class="w3-dropdown-hover">
       <a href="#">Key Insights</a>
         <div class="w3-dropdown-content w3-white w3-card-4">
-          <a href="#">Efficiency</a>
-          <a href="#keyinsights">Communication</a>
-          <a href="#keyinsights">Accessibility</a>
+          <a href="#efficiency">Efficiency</a>
+          <a href="communication.html">Communication</a>
+          <a href="accessibility.html">Accessibility</a>
         </div>
     </li>
     <li><a href="#leadership">Leadership</a></li>
@@ -34,23 +34,38 @@
 
 <!-- Navbar on small screens -->
 <ul class="w3-navbar w3-light-grey w3-hide-large w3-hide-medium">
-  <li><a href="#">Home</a></li>
-  <li><a href="#portfolio">Portfolio</a></li>
-  <li><a href="#contact">Contact</a></li>
+  <li><a href="index.html">About Me</a></li>
+    <!--<li><a href="#keyinsights">Key Insights</a></li>-->
+    <li class="w3-dropdown-click">
+      <a href="#">Key Insights</a>
+        <div class="w3-dropdown-content w3-white w3-card-4">
+          <a href="#efficiency">Efficiency</a>
+          <a href="communication.html">Communication</a>
+          <a href="accessibility.html">Accessibility</a>
+        </div>
+    </li>
+    <li><a href="#leadership">Leadership</a></li>
 </ul>
 
 <!-- Page content -->
-<div class="w3-content w3-padding-xlarge w3-margin-top" id="portfolio">
+<div class="w3-content w3-padding-xlarge w3-margin-top" id="efficiency">
 
-  <!-- Images (Portfolio) -->
-  <img src="/w3images/ocean.jpg" alt="Ocean" class="w3-image" width="1000" height="500">
-  <img src="/w3images/ocean2.jpg" alt="Ocean II" class="w3-image w3-margin-top" width="1000" height="500">
-  <img src="/w3images/falls2.jpg" alt="Falls" class="w3-image w3-margin-top" width="1000" height="500">
-  <img src="/w3images/mountainskies.jpg" alt="Skies" class="w3-image w3-margin-top" width="1000" height="500">
-  <img src="/w3images/mountains2.jpg" alt="Mountains" class="w3-image w3-margin-top" width="1000" height="500">
+  <h1>Efficiency in research</h1>
+  <p>In my CSCE 240 class, we were often given problems that we would need to solve given certain constraints. 
+    When solving these problems, the biggest issue that I would often run into was overthinking the problem. When 
+    overthinking problems, it is easy to go beyond the constraints given and end up complicating the project more than necessary. 
+    Usually when the solution finally became clear, I would wonder how it wasn’t obvious before. While the solution could be found 
+    using overcomplicated methods, they were likely not efficient or took too long to execute. It is easy to just search for a solution 
+    and disregard any need for efficiency, however in the real world, it is important to consider that people will be using software and 
+    it must be as efficient as possible to encourage use.</p>
+  <p>My research involves using and Android Wear smartwatch to determine whether the user is smoking. Continuous monitoring is actually 
+    very common in research, however the devices used are usually made special for the project. This research is novel in that it is 
+    using a device that anyone can own and using it to improve lives. The problem with using a device like Android Wear is that the 
+    application must run constantly, so it needs to be as efficient as possible to conserve battery life, otherwise the user might 
+    quickly become frustrated with the app and not use it.</p>
 
   <!-- Contact -->
-  <div class="w3-light-grey w3-padding-xlarge w3-padding-32 w3-margin-top" id="contact">
+  <!--<div class="w3-light-grey w3-padding-xlarge w3-padding-32 w3-margin-top" id="contact">
     <h3 class="w3-center">Contact</h3>
     <hr>
     <p>Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sed tellus.</p>
@@ -72,7 +87,7 @@
     </form><br>
     <p>Powered by <a href="http://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green">w3.css</a></p>
 
-  </div>
+  </div>-->
 
 <!-- End page content -->
 </div>
