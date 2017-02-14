@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<title>Key Insights</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="/GLD/w3.css">
+<body>
+
+<!-- Header -->
+<header class="w3-display-container w3-content" style="max-width:1500px" >
+  <img class="w3-image" src="/GLD/photos/tcoopheader.jpg" alt="Me" width="1500">
+  <div class="w3-display-middle w3-padding-4 w3-border w3-wide w3-text-light-grey w3-center">
+    <!--<h1 class="w3-hide-medium w3-hide-small w3-xxxlarge">JANE DOE</h1>-->
+    <h1 class="" style="white-space:nowrap">BETHANY JANOS</h1>
+    <h3 class="w3-hide-medium w3-hide-small">KEY INSIGHT 1</h3>
+  </div>
+  
+  <!-- Navbar (placed at the bottom of the header image) -->
+    <ul class="w3-navbar w3-light-grey w3-round w3-hide-small" style="bottom:-16px">
+    <li><a href="index.html">Home</a></li>  
+    <li><a href="index.html#aboutme">About Me</a></li>
+    <!--<li><a href="#keyinsights">Key Insights</a></li>-->
+    <li class="w3-dropdown-hover">
+      <a href="#">Key Insights</a>
+        <div class="w3-dropdown-content w3-white w3-card-4">
+          <a href="efficiency.html">Efficiency</a>
+          <a href="communication.html">Communication</a>
+          <a href="accessibility.html">Accessibility</a>
+        </div>
+    </li>
+    <li><a href="leadership.html">Leadership</a></li>
+  </ul>
+</header>
+
+
+<!-- Navbar on small screens -->
+<ul class="w3-navbar w3-light-grey w3-hide-large w3-hide-medium">
+  <li><a href="index.html">Home</a></li>
+  <li><a href="index.html#aboutme">About Me</a></li>
+    <!--<li><a href="#keyinsights">Key Insights</a></li>-->
+    <li class="w3-dropdown-click">
+      <a href="#">Key Insights</a>
+        <div class="w3-dropdown-content w3-white w3-card-4">
+          <a href="efficiency.html">Efficiency</a>
+          <a href="communication.html">Communication</a>
+          <a href="accessibility.html">Accessibility</a>
+        </div>
+    </li>
+    <li><a href="leadership.html">Leadership</a></li>
+</ul>
+
+<!-- Page content -->
+<div class="w3-content w3-padding-xlarge w3-margin-top" id="efficiency">
+
+  <div class="w3-show-inline-block w3-center">
+    <a class="w3-btn" href="efficiency.html">Efficiency</a>
+    <a class="w3-btn" href="communication.html">Communication</a>
+    <a class="w3-btn" href="accessibility.html">Accessibility</a>
+  </div>
+    
+  
+  
+
+  <!-- Contact -->
+  <!--<div class="w3-light-grey w3-padding-xlarge w3-padding-32 w3-margin-top" id="contact">
+    <h3 class="w3-center">Contact</h3>
+    <hr>
+    <p>Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sed tellus.</p>
+    <form action="form.asp" target="_blank">
+      <div class="w3-group">
+        <label>Name</label>
+        <input class="w3-input w3-border" type="text" required name="Name">
+      </div>
+      <div class="w3-group">
+        <label>Email</label>
+        <input class="w3-input w3-border" type="text" required name="Email">
+      </div>
+      <div class="w3-group">
+        <label>Message</label>
+        <input class="w3-input w3-border" required name="Message">
+      </div>
+      <button type="submit" class="w3-btn w3-btn-block w3-padding-12 w3-dark-grey">Send</button>
+    </form><br>
+    <p>Powered by <a href="http://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+  </div>-->
+
+<!-- End page content -->
+</div>
+
+</body>
+</html>
